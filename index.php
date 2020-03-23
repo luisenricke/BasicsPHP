@@ -11,3 +11,15 @@
 	</ul>
 </body>
 </html>
+
+<?php
+	use Extras as ext;
+	require 'Extras/NamespaceClass.php';
+	require 'OOP/NamespaceClass.php';
+
+	$x = new ext\NamespaceClass();
+	//echo $x->simpleFunction();
+	$y = new OOP\NamespaceClass();
+	//echo $y->simpleFunction();
+
+?>
